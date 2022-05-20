@@ -1,0 +1,21 @@
+* { 
+  margin: 0;padding: 0;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/Beyond\ Mars.ttf);
+}
+body{
+  background: url(./assets/Background.jpg);
+  background-attachment: fixed;
+  position: relative;
+  font-family: myFirstFont;
+  
+}
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}

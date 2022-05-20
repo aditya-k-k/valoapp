@@ -1,0 +1,48 @@
+
+.upper1,.middle1,.lower1,.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+button{
+    width: 95px;
+    height: 40px;
+    border: none;
+    background-color: #cd5360;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: url('../../assets/copy.png'),pointer;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+button:disabled {
+    pointer-events: none;
+    background-color: rgb(19, 19, 7);
+    color: aliceblue;
+
+}
+input {
+    width: 200px;
+    height: 35px;
+    padding: 3px;
+    padding-left: 12px;
+    background: none;
+    border: 1px solid white;
+    margin-left: 3px;
+    color: white;
+  }
+.lowest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

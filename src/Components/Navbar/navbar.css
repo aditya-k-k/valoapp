@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    background: none;
+    width: 100%;
+    height: 10vh;
+    color: aqua;
+    gap: 20px;
+    margin:0 -15px;
+    color: #cd5360;
+}
+.logo{
+    height: 10vh;
+    position: relative;
+    margin-right: auto;
+    margin-left: 33px;
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+}

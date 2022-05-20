@@ -1,0 +1,82 @@
+.box{
+    padding: 10px;
+    width: 23%;
+    background-color: rgba(139, 134, 134, 0.5);
+    height: 25vh;
+    display:flex;
+    flex-direction: column;
+    color: black;
+    justify-content: space-evenly;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.upper .name{
+    font-size: 18px;
+}
+.upper .img1{
+    width: 80px;
+}
+.upper .img1 img{
+    width: 100%;
+}
+.lower{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 95px;
+    height: 40px;
+    border: none;
+    background-color: #cd5360;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.middle{
+    background-color: red;
+    height: 10px;
+}
+
+
+:root {
+    --colour1: #f1c40f;
+    --colour2: #2c3e50;
+    --speed: 4s;
+  }
+  
+
+  
+  @keyframes slide {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: 113px;
+    }
+  }
+  
+
+    .middle {
+      border: 1px solid;  
+      border-radius: 10px;
+      box-shadow: 0px 10px 13px -6px rgba(44, 62, 80, 1);
+      background-color: var(--colour2);
+      background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 40px,
+        var(--colour1) 40px,
+        var(--colour1) 80px
+      );
+  
+      animation: slide var(--speed) linear infinite;
+      will-change: background-position;
+    }
+  
+  
+  
